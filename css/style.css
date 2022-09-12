@@ -3,8 +3,12 @@
     margin: 0;
     box-sizing: border-box;
 }
+a{
+    text-decoration: none;
+}
 
 body{
+    font-family: 'Montserrat', sans-serif;
     height: 100vh;
     background-color: #76045D;
     display: grid;
@@ -13,16 +17,27 @@ body{
     "main"
     "footer";
     grid-template-rows: 100px 1fr 100px;
+
 }
 
 header{
     grid-area: header;
-    background-color: crimson;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 100px;
 }
+
 main{
     grid-area: main;
-    background-color: blue;
+    display: grid;
+    grid-template-areas: 
+        "description product social";
+    grid-template-columns: 380px 1fr 48px;
+    padding-left: 100px;
+    padding-right: 100px;
 }
+
 footer{
     grid-area: main;
     background-color: aqua;
