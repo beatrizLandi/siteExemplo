@@ -1,4 +1,23 @@
 .social{
     grid-area: social;
-    background-color: darkgoldenrod;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: flex-end;
+}
+.social-icon{
+    height: 48px;
+    width: 48px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    color: #fff;
+    display: grid;
+    place-items: center;
+    font-size: 1.5rem;
+    transition: all .5s;
+}
+
+.social-icon:hover{
+    background-color: #CF09A4;
+    border: 2px solid #CF09A4;
 }

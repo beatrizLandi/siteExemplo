@@ -1,0 +1,26 @@
+.info{
+    height: 100px;
+    width: 200px;
+    background-color: black;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+.info__number{
+    font-size: .75rem;
+    font-weight: 600;
+
+}
+.infoFeature{
+    font-size: .75rem;
+    font-weight: 800;
+}
+
+.infoVaelue{
+    font-size: .75rem;
+    font-weight: 400;
+}

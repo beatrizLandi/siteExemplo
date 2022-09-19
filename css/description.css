@@ -1,10 +1,11 @@
 .description{
     grid-area: description;
     color: #D5B9CF;
+    display: flex;
     flex-direction: column;
     justify-content: center;
 }
-.description__title{
+.descriptionTittle{
     font-size: 6rem;
 
 }

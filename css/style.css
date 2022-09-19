@@ -1,11 +1,4 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
-a{
-    text-decoration: none;
-}
+
 
 body{
     font-family: 'Montserrat', sans-serif;
@@ -13,9 +6,11 @@ body{
     background-color: #76045D;
     display: grid;
     grid-template-areas: 
+    
+
     "header"
     "main"
-    "footer";
+     "footer";
     grid-template-rows: 100px 1fr 100px;
 
 }
@@ -40,5 +35,6 @@ main{
 
 footer{
     grid-area: main;
-    background-color: aqua;
+    display: flex;
+    gap: 2px;
 }
