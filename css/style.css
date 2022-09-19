@@ -6,11 +6,9 @@ body{
     background-color: #76045D;
     display: grid;
     grid-template-areas: 
-    
-
     "header"
     "main"
-     "footer";
+    "footer";
     grid-template-rows: 100px 1fr 100px;
 
 }
@@ -34,7 +32,7 @@ main{
 }
 
 footer{
-    grid-area: main;
+    grid-area: footer;
     display: flex;
     gap: 2px;
 }
