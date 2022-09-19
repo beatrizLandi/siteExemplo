@@ -6,6 +6,8 @@
 
 ## Sobre
 ---
+
+Um pequeno projeto feito para a promoção dos headphones Razer
 ## Tecnologias ultilizadas
 ---
 - html
